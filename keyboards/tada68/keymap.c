@@ -87,6 +87,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_LSFT, KC_NUBS, KC_Z,    KC_X,   KC_C,   KC_V,   KC_B,   KC_N,   KC_M,   RALT_COM, RALT_DOT,  RALT_SLSH, KC_RSFT, KC_UP,            KC_PGDN, \
   KC_LCTL, KC_LALT, KC_LGUI,                KC_SPC,                          MO(_FL), KC_RALT,   MT(DF(_BL), KC_RCTL), KC_LEFT, KC_DOWN, KC_RGHT
   ),
+};
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch(keycode) {
