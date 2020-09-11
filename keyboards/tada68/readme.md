@@ -1,8 +1,8 @@
 # TADA68 layout for ISO-NOR
 
-> An ISO-style layout for Norwegian keyboards.
+> My ISO-style layout for a Swdish keyboard keyboards.
 
-This layout was specifically made for Norwegian keyboards (i.e. includes `Æ`, `Ø` and `Å`), and is tested on a TADA68 purchased from [kbdfans](https://kbdfans.cn/) in September 2018.
+This layout has Mac compatibility.
 
 ### Specifics
 
