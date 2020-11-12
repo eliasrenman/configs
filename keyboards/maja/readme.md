@@ -1,2 +1,2 @@
 # Maja
-My layout in VIA for Maja soldered version.
+My personal layout for Maja hotswap version, running with VIA Enabled.
