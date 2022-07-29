@@ -1,0 +1,178 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+      "key": "cmd+n",
+      "command": "extension.advancedNewFile"
+  },
+  {
+      "key": "alt+cmd+n",
+      "command": "-extension.advancedNewFile"
+  },
+  {
+      "key": "alt+cmd+n",
+      "command": "workbench.action.files.newUntitledFile"
+  },
+  {
+      "key": "cmd+n",
+      "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+      "key": "cmd+d",
+      "command": "editor.action.copyLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "shift+alt+down",
+      "command": "-editor.action.copyLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "cmd+d",
+      "command": "-editor.action.addSelectionToNextFindMatch",
+      "when": "editorFocus"
+  },
+  {
+      "key": "shift+f2",
+      "command": "fileutils.renameFile"
+  },
+  {
+      "key": "alt+cmd+n",
+      "command": "explorer.newFile"
+  },
+  {
+      "key": "alt+cmd+l",
+      "command": "-toggleFindInSelection",
+      "when": "editorFocus"
+  },
+  {
+      "key": "alt+cmd+l",
+      "command": "-toggleSearchEditorContextLines",
+      "when": "inSearchEditor"
+  },
+  {
+      "key": "alt+cmd+l",
+      "command": "editor.action.formatDocument",
+      "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+      "key": "shift+alt+f",
+      "command": "-editor.action.formatDocument",
+      "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+      "key": "alt+cmd+l",
+      "command": "editor.action.formatDocument.none",
+      "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly"
+  },
+  {
+      "key": "shift+alt+f",
+      "command": "-editor.action.formatDocument.none",
+      "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly"
+  },
+  {
+      "key": "cmd+b",
+      "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+      "key": "cmd+b",
+      "command": "editor.action.revealDefinition",
+      "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+      "key": "f12",
+      "command": "-editor.action.revealDefinition",
+      "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+      "key": "cmd+r",
+      "command": "-workbench.action.reloadWindow",
+      "when": "isDevelopment"
+  },
+  {
+      "key": "cmd+r",
+      "command": "workbench.action.showAllSymbols"
+  },
+  {
+      "key": "cmd+t",
+      "command": "-workbench.action.showAllSymbols"
+  },
+  {
+      "key": "cmd+[Quote]",
+      "command": "editor.action.commentLine",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "shift+cmd+7",
+      "command": "-editor.action.commentLine",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "alt+cmd+right",
+      "command": "-workbench.action.terminal.focusNextPane",
+      "when": "terminalFocus"
+  },
+  {
+      "key": "alt+cmd+right",
+      "command": "-workbench.action.nextEditor"
+  },
+  {
+      "key": "alt+cmd+right",
+      "command": "workbench.action.moveActiveEditorGroupRight"
+  },
+  {
+      "key": "cmd+k right",
+      "command": "-workbench.action.moveActiveEditorGroupRight"
+  },
+  {
+      "key": "alt+cmd+left",
+      "command": "workbench.action.moveActiveEditorGroupLeft"
+  },
+  {
+      "key": "cmd+k left",
+      "command": "-workbench.action.moveActiveEditorGroupLeft"
+  },
+  {
+      "key": "alt+cmd+left",
+      "command": "-workbench.action.previousEditor"
+  },
+  {
+      "key": "alt+cmd+left",
+      "command": "-workbench.action.terminal.focusPreviousPane",
+      "when": "terminalFocus"
+  },
+  {
+      "key": "alt+cmd+down",
+      "command": "workbench.action.moveActiveEditorGroupDown"
+  },
+  {
+      "key": "cmd+k down",
+      "command": "-workbench.action.moveActiveEditorGroupDown"
+  },
+  {
+      "key": "alt+cmd+down",
+      "command": "-workbench.action.terminal.focusNextPane",
+      "when": "terminalFocus"
+  },
+  {
+      "key": "alt+cmd+down",
+      "command": "-editor.action.insertCursorBelow",
+      "when": "editorTextFocus"
+  },
+  {
+      "key": "alt+cmd+b",
+      "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+cmd+b",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+      "key": "shift+cmd+c",
+      "command": "-workbench.action.terminal.openNativeConsole",
+      "when": "!terminalFocus"
+  },
+  {
+      "key": "cmd+t",
+      "command": "workbench.action.terminal.focus"
+  }
+]
