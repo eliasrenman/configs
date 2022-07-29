@@ -1,0 +1,69 @@
+{
+    "files.autoSave": "onFocusChange",
+    "terminal.external.osxExec": "iTerm.app",
+    "git.confirmSync": false,
+    "editor.tabSize": 2,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.suggest.paths": false,
+    "launch": {
+  
+      "configurations": [],
+      "compounds": []
+    },
+    "git.autofetch": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "files.associations": {
+      "*.jsm": "javascript"
+    },
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "breadcrumbs.enabled": true,
+    "workbench.activityBar.visible": true,
+    "git.enableSmartCommit": true,
+    "javascript.preferences.importModuleSpecifierEnding": "minimal",
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.importModuleSpecifierEnding": "minimal",
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "extensions.ignoreRecommendations": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "editor.linkedEditing": true,
+    "gitlens.codeLens.enabled": false,
+    "search.exclude": {
+      "**/sourcemap.android.js": true,
+      "**/sourcemap.ios.js": true,
+      "**/src/screens/_Contractor/*": true,
+      "**/src/screens/_Dashboard/*": true,
+      "**/src/screens/_DEV/*": true
+    },
+    "editor.fontFamily": "'Jetbrains Mono', monospace",
+    "vtools.autoHideSideBar": true,
+    "vtools.autoHideBottomBar": true,
+    "editor.bracketPairColorization.enabled": true,
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "js/ts.implicitProjectConfig.strictNullChecks": true,
+    // "editor.codeActionsOnSave": {
+    //   "source.fixAll.eslint": true
+    // },
+    "eslint.validate": [
+      "javascript",
+      "typescript"
+    ],
+    "gitlens.views.searchAndCompare.avatars": false,
+    "gitlens.views.searchAndCompare.files.layout": "list",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Community Material Theme",
+  }
