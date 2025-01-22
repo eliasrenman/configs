@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-d": "editor::DuplicateLineDown",
+      "cmd-ä": [
+        "editor::ToggleComments",
+        {
+          "advance_downwards": false
+        }
+      ],
+      "cmd-b": "editor::GoToDefinition",
+      "cmd-r": "search::ToggleReplace"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      //"cmd-t": "terminal_panel::ToggleFocus",
+      //"cmd-t": "project_symbols::Toggle",
+      "cmd-1": "workspace::ToggleLeftDock",
+      "cmd-t": "workspace::ToggleBottomDock",
+      "cmd-3": "workspace::ToggleRightDock",
+      "cmd-r": "search::ToggleReplace"
+    }
+  },
+  {
+    "context": "ProjectSearchBar",
+    "bindings": {
+      "cmd-r": "search::ToggleReplace"
+    }
+  }
+]
